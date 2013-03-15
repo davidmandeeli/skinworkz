@@ -5,14 +5,14 @@
 /* Author: Monkey Do! */
 /* Author URI: http://monkeydo.biz */
 /* Version: 1 */
-/*	HTML5 Reset Wordpress Theme :: style.css */
-/*	---------------------------------------------------------- */
-/*	We have learned much from/been inspired by/taken code where offered from: */
-/*	Eric Meyer					:: http://ericmeyer.com */
-/*	HTML5 Doctor				:: http://html5doctor.com */
-/*	and the HTML5 Boilerplate	:: http://html5boilerplate.com */
-/*	Special thanks: The Wordpress theme owes its start to an empty theme authored */
-/*		by Chris Coyier & Jeff Starr: http://digwp.com */
+/*  HTML5 Reset Wordpress Theme :: style.css */
+/*  ---------------------------------------------------------- */
+/*  We have learned much from/been inspired by/taken code where offered from: */
+/*  Eric Meyer          :: http://ericmeyer.com */
+/*  HTML5 Doctor        :: http://html5doctor.com */
+/*  and the HTML5 Boilerplate :: http://html5boilerplate.com */
+/*  Special thanks: The Wordpress theme owes its start to an empty theme authored */
+/*    by Chris Coyier & Jeff Starr: http://digwp.com */
 /* line 12, _/stylesheets/partials/_html5reset.sass */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
   margin: 0;

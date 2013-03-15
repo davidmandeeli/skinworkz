@@ -1,10 +1,10 @@
-		<footer id="footer" clas="source-org vcard copyright">
-			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
-		</footer>
+    <footer id="footer" clas="source-org vcard copyright">
+      <small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
+    </footer>
 
-	</div>
+  </div>
 
-	<?php wp_footer(); ?>
+  <?php wp_footer(); ?>
 
 
 <!-- here comes the javascript -->
@@ -13,16 +13,16 @@
 
 <!-- this is where we put our custom functions -->
 
-	<script src="<?php echo JAVASCRIPTSPATH; ?>functions.js"></script>
+  <script src="<?php echo JAVASCRIPTSPATH; ?>functions.js"></script>
     <script type="text/javascript">
-	    $(window).load(function() {
-	        $('#slider').nivoSlider();
-	    });
+      $(window).load(function() {
+          $('#slider').nivoSlider();
+      });
     </script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
-	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
-	 
+   Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
+   
 <script>
 
   var _gaq = _gaq || [];
@@ -37,7 +37,7 @@
 
 </script>
 -->
-	
+  
 </body>
 
 </html>
