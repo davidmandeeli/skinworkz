@@ -1,0 +1,898 @@
+/* */
+/* Theme Name: The HTML5 Reset Theme */
+/* Theme URI: http://html5reset.org */
+/* Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own. */
+/* Author: Monkey Do! */
+/* Author URI: http://monkeydo.biz */
+/* Version: 1 */
+/*	HTML5 Reset Wordpress Theme :: style.css */
+/*	---------------------------------------------------------- */
+/*	We have learned much from/been inspired by/taken code where offered from: */
+/*	Eric Meyer					:: http://ericmeyer.com */
+/*	HTML5 Doctor				:: http://html5doctor.com */
+/*	and the HTML5 Boilerplate	:: http://html5boilerplate.com */
+/*	Special thanks: The Wordpress theme owes its start to an empty theme authored */
+/*		by Chris Coyier & Jeff Starr: http://digwp.com */
+/* line 12, _/stylesheets/partials/_html5reset.sass */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, _/stylesheets/partials/_html5reset.sass */
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 27, _/stylesheets/partials/_html5reset.sass */
+img, object, embed {
+  max-width: 100%;
+}
+
+/* line 31, _/stylesheets/partials/_html5reset.sass */
+html {
+  overflow-y: scroll;
+}
+
+/* line 37, _/stylesheets/partials/_html5reset.sass */
+ul {
+  list-style: none;
+}
+
+/* line 40, _/stylesheets/partials/_html5reset.sass */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, _/stylesheets/partials/_html5reset.sass */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 47, _/stylesheets/partials/_html5reset.sass */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 54, _/stylesheets/partials/_html5reset.sass */
+del {
+  text-decoration: line-through;
+}
+
+/* line 57, _/stylesheets/partials/_html5reset.sass */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted black;
+  cursor: help;
+}
+
+/* line 62, _/stylesheets/partials/_html5reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 65, _/stylesheets/partials/_html5reset.sass */
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+/* line 68, _/stylesheets/partials/_html5reset.sass */
+td {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+/* line 72, _/stylesheets/partials/_html5reset.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 80, _/stylesheets/partials/_html5reset.sass */
+input, select {
+  vertical-align: middle;
+}
+
+/* line 83, _/stylesheets/partials/_html5reset.sass */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+/* line 89, _/stylesheets/partials/_html5reset.sass */
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+
+/* line 91, _/stylesheets/partials/_html5reset.sass */
+input[type="checkbox"] {
+  vertical-align: bottom;
+  *vertical-align: baseline;
+}
+
+/* line 94, _/stylesheets/partials/_html5reset.sass */
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+/* line 97, _/stylesheets/partials/_html5reset.sass */
+select, input, textarea {
+  font: 99% sans-serif;
+}
+
+/* line 100, _/stylesheets/partials/_html5reset.sass */
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* line 106, _/stylesheets/partials/_html5reset.sass */
+a:hover, a:active {
+  outline: none;
+}
+
+/* line 109, _/stylesheets/partials/_html5reset.sass */
+small {
+  font-size: 85%;
+}
+
+/* line 112, _/stylesheets/partials/_html5reset.sass */
+strong, th {
+  font-weight: bold;
+}
+
+/* line 115, _/stylesheets/partials/_html5reset.sass */
+td, td img {
+  vertical-align: top;
+}
+
+/* line 120, _/stylesheets/partials/_html5reset.sass */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+/* line 124, _/stylesheets/partials/_html5reset.sass */
+sup {
+  top: -0.5em;
+}
+
+/* line 126, _/stylesheets/partials/_html5reset.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 130, _/stylesheets/partials/_html5reset.sass */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* line 134, _/stylesheets/partials/_html5reset.sass */
+.clickable, label, input[type=button], input[type=submit], button {
+  cursor: pointer;
+}
+
+/* line 138, _/stylesheets/partials/_html5reset.sass */
+button, input, select, textarea {
+  margin: 0;
+}
+
+/* line 142, _/stylesheets/partials/_html5reset.sass */
+button {
+  width: auto;
+  overflow: visible;
+}
+
+/* line 147, _/stylesheets/partials/_html5reset.sass */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 150, _/stylesheets/partials/_html5reset.sass */
+.ie6 html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+/* line 154, _/stylesheets/partials/_html5reset.sass */
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 159, _/stylesheets/partials/_html5reset.sass */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 161, _/stylesheets/partials/_html5reset.sass */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 170, _/stylesheets/partials/_html5reset.sass */
+body {
+  font: 13px Helmet, Freesans, sans-serif;
+}
+
+/* line 177, _/stylesheets/partials/_html5reset.sass */
+body, select, input, textarea {
+  color: #333333;
+}
+
+/* line 180, _/stylesheets/partials/_html5reset.sass */
+a {
+  color: #0033ff;
+}
+
+/* line 182, _/stylesheets/partials/_html5reset.sass */
+a:hover {
+  color: #6699ff;
+}
+
+/* line 186, _/stylesheets/partials/_html5reset.sass */
+::-moz-selection {
+  background: #fcd700;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 190, _/stylesheets/partials/_html5reset.sass */
+::selection {
+  background: #fcd700;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 196, _/stylesheets/partials/_html5reset.sass */
+a:link {
+  -webkit-tap-highlight-color: #fcd700;
+}
+
+/* line 199, _/stylesheets/partials/_html5reset.sass */
+ins {
+  background-color: #fcd700;
+  color: black;
+  text-decoration: none;
+}
+
+/* line 203, _/stylesheets/partials/_html5reset.sass */
+mark {
+  background-color: #fcd700;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on March 10, 2013 */
+@font-face {
+  font-family: 'mothproofscriptregular';
+  src: url("_/stylesheets/fonts/mothproof_script-webfont.eot");
+  src: url("_/stylesheets/fonts/mothproof_script-webfont.eot?#iefix") format("embedded-opentype"), url("_/stylesheets/fonts/mothproof_script-webfont.woff") format("woff"), url("_/stylesheets/fonts/mothproof_script-webfont.ttf") format("truetype"), url("_/stylesheets/fonts/mothproof_script-webfont.svg#mothproofscriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 29, _/stylesheets/style.sass */
+body {
+  font-size: 75%;
+  font-family: sans-serif;
+  background: url("_/images/bg.jpg") repeat;
+  height: 100%;
+}
+
+/* line 35, _/stylesheets/style.sass */
+#page-wrap {
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(5%, rgba(0, 0, 0, 0.5)), color-stop(5%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 0% 50%, 960 50%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(100, 100, 225, 0.25)), color-stop(3.125%, rgba(100, 100, 225, 0.25)), color-stop(3.125%, rgba(0, 0, 0, 0)), color-stop(4.16667%, rgba(0, 0, 0, 0)), color-stop(4.16667%, rgba(100, 100, 225, 0.25)), color-stop(7.29167%, rgba(100, 100, 225, 0.25)), color-stop(7.29167%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(0, 0, 0, 0)), color-stop(8.33333%, rgba(100, 100, 225, 0.25)), color-stop(11.45833%, rgba(100, 100, 225, 0.25)), color-stop(11.45833%, rgba(0, 0, 0, 0)), color-stop(12.5%, rgba(0, 0, 0, 0)), color-stop(12.5%, rgba(100, 100, 225, 0.25)), color-stop(15.625%, rgba(100, 100, 225, 0.25)), color-stop(15.625%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(0, 0, 0, 0)), color-stop(16.66667%, rgba(100, 100, 225, 0.25)), color-stop(19.79167%, rgba(100, 100, 225, 0.25)), color-stop(19.79167%, rgba(0, 0, 0, 0)), color-stop(20.83333%, rgba(0, 0, 0, 0)), color-stop(20.83333%, rgba(100, 100, 225, 0.25)), color-stop(23.95833%, rgba(100, 100, 225, 0.25)), color-stop(23.95833%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(0, 0, 0, 0)), color-stop(25%, rgba(100, 100, 225, 0.25)), color-stop(28.125%, rgba(100, 100, 225, 0.25)), color-stop(28.125%, rgba(0, 0, 0, 0)), color-stop(29.16667%, rgba(0, 0, 0, 0)), color-stop(29.16667%, rgba(100, 100, 225, 0.25)), color-stop(32.29167%, rgba(100, 100, 225, 0.25)), color-stop(32.29167%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(0, 0, 0, 0)), color-stop(33.33333%, rgba(100, 100, 225, 0.25)), color-stop(36.45833%, rgba(100, 100, 225, 0.25)), color-stop(36.45833%, rgba(0, 0, 0, 0)), color-stop(37.5%, rgba(0, 0, 0, 0)), color-stop(37.5%, rgba(100, 100, 225, 0.25)), color-stop(40.625%, rgba(100, 100, 225, 0.25)), color-stop(40.625%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(0, 0, 0, 0)), color-stop(41.66667%, rgba(100, 100, 225, 0.25)), color-stop(44.79167%, rgba(100, 100, 225, 0.25)), color-stop(44.79167%, rgba(0, 0, 0, 0)), color-stop(45.83333%, rgba(0, 0, 0, 0)), color-stop(45.83333%, rgba(100, 100, 225, 0.25)), color-stop(48.95833%, rgba(100, 100, 225, 0.25)), color-stop(48.95833%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(100, 100, 225, 0.25)), color-stop(53.125%, rgba(100, 100, 225, 0.25)), color-stop(53.125%, rgba(0, 0, 0, 0)), color-stop(54.16667%, rgba(0, 0, 0, 0)), color-stop(54.16667%, rgba(100, 100, 225, 0.25)), color-stop(57.29167%, rgba(100, 100, 225, 0.25)), color-stop(57.29167%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(0, 0, 0, 0)), color-stop(58.33333%, rgba(100, 100, 225, 0.25)), color-stop(61.45833%, rgba(100, 100, 225, 0.25)), color-stop(61.45833%, rgba(0, 0, 0, 0)), color-stop(62.5%, rgba(0, 0, 0, 0)), color-stop(62.5%, rgba(100, 100, 225, 0.25)), color-stop(65.625%, rgba(100, 100, 225, 0.25)), color-stop(65.625%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(0, 0, 0, 0)), color-stop(66.66667%, rgba(100, 100, 225, 0.25)), color-stop(69.79167%, rgba(100, 100, 225, 0.25)), color-stop(69.79167%, rgba(0, 0, 0, 0)), color-stop(70.83333%, rgba(0, 0, 0, 0)), color-stop(70.83333%, rgba(100, 100, 225, 0.25)), color-stop(73.95833%, rgba(100, 100, 225, 0.25)), color-stop(73.95833%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(100, 100, 225, 0.25)), color-stop(78.125%, rgba(100, 100, 225, 0.25)), color-stop(78.125%, rgba(0, 0, 0, 0)), color-stop(79.16667%, rgba(0, 0, 0, 0)), color-stop(79.16667%, rgba(100, 100, 225, 0.25)), color-stop(82.29167%, rgba(100, 100, 225, 0.25)), color-stop(82.29167%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(0, 0, 0, 0)), color-stop(83.33333%, rgba(100, 100, 225, 0.25)), color-stop(86.45833%, rgba(100, 100, 225, 0.25)), color-stop(86.45833%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(0, 0, 0, 0)), color-stop(87.5%, rgba(100, 100, 225, 0.25)), color-stop(90.625%, rgba(100, 100, 225, 0.25)), color-stop(90.625%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(0, 0, 0, 0)), color-stop(91.66667%, rgba(100, 100, 225, 0.25)), color-stop(94.79167%, rgba(100, 100, 225, 0.25)), color-stop(94.79167%, rgba(0, 0, 0, 0)), color-stop(95.83333%, rgba(0, 0, 0, 0)), color-stop(95.83333%, rgba(100, 100, 225, 0.25)), color-stop(98.95833%, rgba(100, 100, 225, 0.25)), color-stop(98.95833%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 30px, rgba(0, 0, 0, 0) 30px, rgba(0, 0, 0, 0) 40px, rgba(100, 100, 225, 0.25) 40px, rgba(100, 100, 225, 0.25) 70px, rgba(0, 0, 0, 0) 70px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 110px, rgba(0, 0, 0, 0) 110px, rgba(0, 0, 0, 0) 120px, rgba(100, 100, 225, 0.25) 120px, rgba(100, 100, 225, 0.25) 150px, rgba(0, 0, 0, 0) 150px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 230px, rgba(0, 0, 0, 0) 230px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 270px, rgba(0, 0, 0, 0) 270px, rgba(0, 0, 0, 0) 280px, rgba(100, 100, 225, 0.25) 280px, rgba(100, 100, 225, 0.25) 310px, rgba(0, 0, 0, 0) 310px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 350px, rgba(0, 0, 0, 0) 350px, rgba(0, 0, 0, 0) 360px, rgba(100, 100, 225, 0.25) 360px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 430px, rgba(0, 0, 0, 0) 430px, rgba(0, 0, 0, 0) 440px, rgba(100, 100, 225, 0.25) 440px, rgba(100, 100, 225, 0.25) 470px, rgba(0, 0, 0, 0) 470px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 510px, rgba(0, 0, 0, 0) 510px, rgba(0, 0, 0, 0) 520px, rgba(100, 100, 225, 0.25) 520px, rgba(100, 100, 225, 0.25) 550px, rgba(0, 0, 0, 0) 550px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 630px, rgba(0, 0, 0, 0) 630px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 670px, rgba(0, 0, 0, 0) 670px, rgba(0, 0, 0, 0) 680px, rgba(100, 100, 225, 0.25) 680px, rgba(100, 100, 225, 0.25) 710px, rgba(0, 0, 0, 0) 710px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 750px, rgba(0, 0, 0, 0) 750px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 830px, rgba(0, 0, 0, 0) 830px, rgba(0, 0, 0, 0) 840px, rgba(100, 100, 225, 0.25) 840px, rgba(100, 100, 225, 0.25) 870px, rgba(0, 0, 0, 0) 870px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 950px, rgba(0, 0, 0, 0) 950px, rgba(0, 0, 0, 0) 960px);
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 30px, rgba(0, 0, 0, 0) 30px, rgba(0, 0, 0, 0) 40px, rgba(100, 100, 225, 0.25) 40px, rgba(100, 100, 225, 0.25) 70px, rgba(0, 0, 0, 0) 70px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 110px, rgba(0, 0, 0, 0) 110px, rgba(0, 0, 0, 0) 120px, rgba(100, 100, 225, 0.25) 120px, rgba(100, 100, 225, 0.25) 150px, rgba(0, 0, 0, 0) 150px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 230px, rgba(0, 0, 0, 0) 230px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 270px, rgba(0, 0, 0, 0) 270px, rgba(0, 0, 0, 0) 280px, rgba(100, 100, 225, 0.25) 280px, rgba(100, 100, 225, 0.25) 310px, rgba(0, 0, 0, 0) 310px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 350px, rgba(0, 0, 0, 0) 350px, rgba(0, 0, 0, 0) 360px, rgba(100, 100, 225, 0.25) 360px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 430px, rgba(0, 0, 0, 0) 430px, rgba(0, 0, 0, 0) 440px, rgba(100, 100, 225, 0.25) 440px, rgba(100, 100, 225, 0.25) 470px, rgba(0, 0, 0, 0) 470px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 510px, rgba(0, 0, 0, 0) 510px, rgba(0, 0, 0, 0) 520px, rgba(100, 100, 225, 0.25) 520px, rgba(100, 100, 225, 0.25) 550px, rgba(0, 0, 0, 0) 550px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 630px, rgba(0, 0, 0, 0) 630px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 670px, rgba(0, 0, 0, 0) 670px, rgba(0, 0, 0, 0) 680px, rgba(100, 100, 225, 0.25) 680px, rgba(100, 100, 225, 0.25) 710px, rgba(0, 0, 0, 0) 710px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 750px, rgba(0, 0, 0, 0) 750px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 830px, rgba(0, 0, 0, 0) 830px, rgba(0, 0, 0, 0) 840px, rgba(100, 100, 225, 0.25) 840px, rgba(100, 100, 225, 0.25) 870px, rgba(0, 0, 0, 0) 870px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 950px, rgba(0, 0, 0, 0) 950px, rgba(0, 0, 0, 0) 960px);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), -o-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 30px, rgba(0, 0, 0, 0) 30px, rgba(0, 0, 0, 0) 40px, rgba(100, 100, 225, 0.25) 40px, rgba(100, 100, 225, 0.25) 70px, rgba(0, 0, 0, 0) 70px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 110px, rgba(0, 0, 0, 0) 110px, rgba(0, 0, 0, 0) 120px, rgba(100, 100, 225, 0.25) 120px, rgba(100, 100, 225, 0.25) 150px, rgba(0, 0, 0, 0) 150px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 230px, rgba(0, 0, 0, 0) 230px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 270px, rgba(0, 0, 0, 0) 270px, rgba(0, 0, 0, 0) 280px, rgba(100, 100, 225, 0.25) 280px, rgba(100, 100, 225, 0.25) 310px, rgba(0, 0, 0, 0) 310px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 350px, rgba(0, 0, 0, 0) 350px, rgba(0, 0, 0, 0) 360px, rgba(100, 100, 225, 0.25) 360px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 430px, rgba(0, 0, 0, 0) 430px, rgba(0, 0, 0, 0) 440px, rgba(100, 100, 225, 0.25) 440px, rgba(100, 100, 225, 0.25) 470px, rgba(0, 0, 0, 0) 470px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 510px, rgba(0, 0, 0, 0) 510px, rgba(0, 0, 0, 0) 520px, rgba(100, 100, 225, 0.25) 520px, rgba(100, 100, 225, 0.25) 550px, rgba(0, 0, 0, 0) 550px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 630px, rgba(0, 0, 0, 0) 630px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 670px, rgba(0, 0, 0, 0) 670px, rgba(0, 0, 0, 0) 680px, rgba(100, 100, 225, 0.25) 680px, rgba(100, 100, 225, 0.25) 710px, rgba(0, 0, 0, 0) 710px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 750px, rgba(0, 0, 0, 0) 750px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 830px, rgba(0, 0, 0, 0) 830px, rgba(0, 0, 0, 0) 840px, rgba(100, 100, 225, 0.25) 840px, rgba(100, 100, 225, 0.25) 870px, rgba(0, 0, 0, 0) 870px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 950px, rgba(0, 0, 0, 0) 950px, rgba(0, 0, 0, 0) 960px);
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0) 5%), linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(100, 100, 225, 0.25) 0px, rgba(100, 100, 225, 0.25) 30px, rgba(0, 0, 0, 0) 30px, rgba(0, 0, 0, 0) 40px, rgba(100, 100, 225, 0.25) 40px, rgba(100, 100, 225, 0.25) 70px, rgba(0, 0, 0, 0) 70px, rgba(0, 0, 0, 0) 80px, rgba(100, 100, 225, 0.25) 80px, rgba(100, 100, 225, 0.25) 110px, rgba(0, 0, 0, 0) 110px, rgba(0, 0, 0, 0) 120px, rgba(100, 100, 225, 0.25) 120px, rgba(100, 100, 225, 0.25) 150px, rgba(0, 0, 0, 0) 150px, rgba(0, 0, 0, 0) 160px, rgba(100, 100, 225, 0.25) 160px, rgba(100, 100, 225, 0.25) 190px, rgba(0, 0, 0, 0) 190px, rgba(0, 0, 0, 0) 200px, rgba(100, 100, 225, 0.25) 200px, rgba(100, 100, 225, 0.25) 230px, rgba(0, 0, 0, 0) 230px, rgba(0, 0, 0, 0) 240px, rgba(100, 100, 225, 0.25) 240px, rgba(100, 100, 225, 0.25) 270px, rgba(0, 0, 0, 0) 270px, rgba(0, 0, 0, 0) 280px, rgba(100, 100, 225, 0.25) 280px, rgba(100, 100, 225, 0.25) 310px, rgba(0, 0, 0, 0) 310px, rgba(0, 0, 0, 0) 320px, rgba(100, 100, 225, 0.25) 320px, rgba(100, 100, 225, 0.25) 350px, rgba(0, 0, 0, 0) 350px, rgba(0, 0, 0, 0) 360px, rgba(100, 100, 225, 0.25) 360px, rgba(100, 100, 225, 0.25) 390px, rgba(0, 0, 0, 0) 390px, rgba(0, 0, 0, 0) 400px, rgba(100, 100, 225, 0.25) 400px, rgba(100, 100, 225, 0.25) 430px, rgba(0, 0, 0, 0) 430px, rgba(0, 0, 0, 0) 440px, rgba(100, 100, 225, 0.25) 440px, rgba(100, 100, 225, 0.25) 470px, rgba(0, 0, 0, 0) 470px, rgba(0, 0, 0, 0) 480px, rgba(100, 100, 225, 0.25) 480px, rgba(100, 100, 225, 0.25) 510px, rgba(0, 0, 0, 0) 510px, rgba(0, 0, 0, 0) 520px, rgba(100, 100, 225, 0.25) 520px, rgba(100, 100, 225, 0.25) 550px, rgba(0, 0, 0, 0) 550px, rgba(0, 0, 0, 0) 560px, rgba(100, 100, 225, 0.25) 560px, rgba(100, 100, 225, 0.25) 590px, rgba(0, 0, 0, 0) 590px, rgba(0, 0, 0, 0) 600px, rgba(100, 100, 225, 0.25) 600px, rgba(100, 100, 225, 0.25) 630px, rgba(0, 0, 0, 0) 630px, rgba(0, 0, 0, 0) 640px, rgba(100, 100, 225, 0.25) 640px, rgba(100, 100, 225, 0.25) 670px, rgba(0, 0, 0, 0) 670px, rgba(0, 0, 0, 0) 680px, rgba(100, 100, 225, 0.25) 680px, rgba(100, 100, 225, 0.25) 710px, rgba(0, 0, 0, 0) 710px, rgba(0, 0, 0, 0) 720px, rgba(100, 100, 225, 0.25) 720px, rgba(100, 100, 225, 0.25) 750px, rgba(0, 0, 0, 0) 750px, rgba(0, 0, 0, 0) 760px, rgba(100, 100, 225, 0.25) 760px, rgba(100, 100, 225, 0.25) 790px, rgba(0, 0, 0, 0) 790px, rgba(0, 0, 0, 0) 800px, rgba(100, 100, 225, 0.25) 800px, rgba(100, 100, 225, 0.25) 830px, rgba(0, 0, 0, 0) 830px, rgba(0, 0, 0, 0) 840px, rgba(100, 100, 225, 0.25) 840px, rgba(100, 100, 225, 0.25) 870px, rgba(0, 0, 0, 0) 870px, rgba(0, 0, 0, 0) 880px, rgba(100, 100, 225, 0.25) 880px, rgba(100, 100, 225, 0.25) 910px, rgba(0, 0, 0, 0) 910px, rgba(0, 0, 0, 0) 920px, rgba(100, 100, 225, 0.25) 920px, rgba(100, 100, 225, 0.25) 950px, rgba(0, 0, 0, 0) 950px, rgba(0, 0, 0, 0) 960px);
+  -webkit-background-size: 100% 18px, auto;
+  -moz-background-size: 100% 18px, auto;
+  -o-background-size: 100% 18px, auto;
+  background-size: 100% 18px, auto;
+  background-position: left top;
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 18, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form label {
+  font-weight: bold;
+}
+/* line 19, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form fieldset {
+  padding: 1.4em;
+  margin: 0 0 1.5em 0;
+}
+/* line 20, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* line 26, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form input.text, form input.title, form input[type=email], form input[type=text], form input[type=password] {
+  margin: 0.5em 0;
+  background-color: white;
+  padding: 5px;
+}
+/* line 27, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form input.title {
+  font-size: 1.5em;
+}
+/* line 29, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form textarea {
+  margin: 0.5em 0;
+  padding: 5px;
+}
+/* line 30, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form select {
+  margin: 0.5em 0;
+}
+/* line 55, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form fieldset {
+  border: 1px solid #cccccc;
+}
+/* line 58, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form input.text, form input.title, form input[type=email], form input[type=text], form input[type=password],
+form textarea {
+  background-color: #fff;
+  border: 1px solid #bbbbbb;
+}
+/* line 61, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form input.text:focus, form input.title:focus, form input[type=email]:focus, form input[type=text]:focus, form input[type=password]:focus,
+form textarea:focus {
+  border-color: #666666;
+}
+/* line 65, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form select {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 44, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form input.text, form input.title, form input[type=email], form input[type=text], form input[type=password] {
+  width: 300px;
+}
+/* line 46, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+form textarea {
+  width: 390px;
+  height: 250px;
+}
+
+@media print {
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: black;
+  background: none;
+  font-size: 10pt;
+  /* line 45, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  .container {
+    background: none;
+  }
+
+  /* line 47, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  hr {
+    background: #cccccc;
+    color: #cccccc;
+    width: 100%;
+    height: 2px;
+    margin: 2em 0;
+    padding: 0;
+    border: none;
+  }
+  /* line 55, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  hr.space {
+    background: white;
+    color: white;
+  }
+
+  /* line 58, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  }
+
+  /* line 60, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  code {
+    font-size: 0.9em;
+    font-family: "andale mono", "lucida console", monospace;
+  }
+
+  /* line 65, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  a img {
+    border: none;
+  }
+  /* line 68, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  a:link, a:visited {
+    background: transparent;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  /* line 72, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  p img.top {
+    margin-top: 0;
+  }
+
+  /* line 74, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  blockquote {
+    margin: 1.5em;
+    padding: 1em;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  /* line 79, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  .small {
+    font-size: 0.9em;
+  }
+
+  /* line 81, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  .large {
+    font-size: 1.1em;
+  }
+
+  /* line 83, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  .quiet {
+    color: #999999;
+  }
+
+  /* line 85, c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_print.scss */
+  .hide {
+    display: none;
+  }
+}
+/* line 54, _/stylesheets/style.sass */
+#page-container {
+  margin: 55px auto;
+  width: 960px;
+  border-radius: 10px;
+  background: url("_/images/inner-wall.jpg");
+  border-top: 5px solid #a11e27;
+  border-bottom: 3px solid #a11e27;
+}
+
+/* line 62, _/stylesheets/style.sass */
+.logo {
+  margin: 0 auto;
+  background: black;
+  display: block;
+  width: 530px;
+  height: 200px;
+  background: url("_/images/logo.png");
+  position: relative;
+  top: -50px;
+}
+
+/* line 72, _/stylesheets/style.sass */
+nav {
+  top: -80px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1em;
+}
+/* line 77, _/stylesheets/style.sass */
+nav ul {
+  margin: 0 auto;
+  width: 85%;
+  position: relative;
+}
+/* line 81, _/stylesheets/style.sass */
+nav li {
+  float: left;
+  width: 16.16%;
+  text-align: center;
+}
+
+/* line 86, _/stylesheets/style.sass */
+#slider {
+  top: -70px;
+  position: relative;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  max-width: 900px;
+  max-height: 480px;
+  margin: 0 auto;
+}
+
+/* line 96, _/stylesheets/style.sass */
+.nivoSlider {
+  position: relative;
+  width: 900px;
+  height: 480px;
+  height: auto;
+  overflow: hidden;
+  background: white url(../images/loading.gif) no-repeat 50% 50%;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+/* line 107, _/stylesheets/style.sass */
+.nivoSlider:hover .nivo-caption, .nivoSlider:hover .nivo-directionNav a {
+  opacity: 1;
+}
+/* line 111, _/stylesheets/style.sass */
+.nivoSlider img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-width: none;
+}
+/* line 118, _/stylesheets/style.sass */
+.nivoSlider a.title {
+  font-family: "Harabara";
+  text-align: center;
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+  background: black;
+  color: white;
+  width: 100%;
+  z-index: 8;
+  padding: 5px 10px;
+  overflow: hidden;
+  display: none;
+  -moz-opacity: 0.6;
+  filter: alpha(opacity=8);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: red;
+}
+
+/* line 138, _/stylesheets/style.sass */
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+/* line 143, _/stylesheets/style.sass */
+.nivoSlider a.nivo-imageLink {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 6;
+  display: none;
+  background: white;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* line 158, _/stylesheets/style.sass */
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0;
+}
+
+/* line 165, _/stylesheets/style.sass */
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+}
+/* line 171, _/stylesheets/style.sass */
+.nivo-box img {
+  display: block;
+}
+
+/* line 174, _/stylesheets/style.sass */
+.nivo-caption {
+  font-family: "SinaNova-RegularRegular";
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: black;
+  color: white;
+  width: 100%;
+  z-index: 8;
+  padding: 0 0 0 -2px;
+  overflow: hidden;
+  display: none;
+  font-size: 1.8em;
+  opacity: 0.8;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+/* line 198, _/stylesheets/style.sass */
+.nivo-caption p {
+  padding: 0;
+  margin: 0;
+}
+/* line 202, _/stylesheets/style.sass */
+.nivo-caption a {
+  display: inline !important;
+}
+
+/* line 205, _/stylesheets/style.sass */
+.nivo-directionNav a {
+  position: absolute;
+  top: 45%;
+  padding-top: 2px;
+  z-index: 9;
+  cursor: pointer;
+  font-size: 1.95em;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+/* line 216, _/stylesheets/style.sass */
+.nivo-controlNav {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  height: 25px;
+  margin-bottom: 60px;
+  margin-top: -60px;
+}
+
+/* line 226, _/stylesheets/style.sass */
+.nivo-controlNav a {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: url(_/images/bullets.png) no-repeat;
+  text-indent: -9999px;
+  border: 0;
+  margin: 0;
+}
+
+/* line 235, _/stylesheets/style.sass */
+.nivo-controlNav a.active {
+  background-position: 0 -22px;
+}
+
+/* line 238, _/stylesheets/style.sass */
+.seperator {
+  border-top: 2px solid #a11e27;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 244, _/stylesheets/style.sass */
+#works {
+  border-top: 2px solid #a11e27;
+  top: -50px;
+  position: relative;
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* line 252, _/stylesheets/style.sass */
+.works-cont {
+  position: relative;
+  width: 100%;
+  margin: 2em auto;
+  height: 100%;
+}
+/* line 258, _/stylesheets/style.sass */
+.works-cont .info-cont {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 100%;
+}
+/* line 264, _/stylesheets/style.sass */
+.works-cont .info-cont .info {
+  margin: 0 auto;
+  position: relative;
+  margin-left: 60px;
+  height: 80%;
+}
+/* line 270, _/stylesheets/style.sass */
+.works-cont .info-cont .info h2 {
+  font-size: 35px;
+  font-family: "mothproofscriptregular";
+}
+/* line 273, _/stylesheets/style.sass */
+.works-cont .info-cont .info p {
+  position: relative;
+  width: 70%;
+  margin-top: 10px;
+}
+/* line 278, _/stylesheets/style.sass */
+.works-cont .image-placer {
+  float: left;
+  left: 0;
+  width: 500px;
+}
+/* line 283, _/stylesheets/style.sass */
+.works-cont .image-placer img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-right: 100px;
+  width: 380px;
+  height: 464px;
+  border-radius: 5px;
+  border-top: 3px solid #a11e27;
+  border-left: 1px solid #a11e27;
+  border-right: 1px solid #a11e27;
+  border-bottom: 3px solid #a11e27;
+  box-shadow: 0px 0px 1px black;
+}
+
+/* line 297, _/stylesheets/style.sass */
+.work-container {
+  position: relative;
+  width: 960px;
+  height: 100%;
+  float: left;
+  margin: 0 auto;
+}
+/* line 304, _/stylesheets/style.sass */
+.work-container h1 {
+  text-align: center;
+  font-size: 29px;
+  font-family: "mothproofscriptregular";
+  text-decoration: underline;
+}
+
+/* line 310, _/stylesheets/style.sass */
+article {
+  position: relative;
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+/* line 316, _/stylesheets/style.sass */
+article .lg_thumb img {
+  border: 1px solid #483c24;
+  box-shadow: 0px 0px 2px black;
+}
+/* line 320, _/stylesheets/style.sass */
+article p {
+  font-size: 24px;
+  font-family: "mothproofscriptregular";
+}
+
+/* line 328, _/stylesheets/style.sass */
+#artists {
+  top: -50px;
+  position: relative;
+  background: #d2cbc8;
+  height: 480px;
+  width: 100%;
+  max-width: 900px;
+  max-height: 480px;
+  margin: 0 auto 10px;
+}
+/* line 338, _/stylesheets/style.sass */
+#artists .char {
+  position: absolute;
+  margin: 0;
+  bottom: -2px;
+}
+/* line 344, _/stylesheets/style.sass */
+#artists ul {
+  position: absolute;
+  width: 109%;
+  height: 50px;
+  text-align: center;
+  margin-left: -10px;
+  bottom: -70px;
+  z-index: 9999;
+}
+/* line 353, _/stylesheets/style.sass */
+#artists ul li {
+  float: left;
+  width: 102px;
+  border-right: 1px solid black;
+}
+/* line 358, _/stylesheets/style.sass */
+#artists ul li:last-child {
+  border: none;
+}
+/* line 361, _/stylesheets/style.sass */
+#artists a {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  text-transform: capital;
+}
+/* line 368, _/stylesheets/style.sass */
+#artists #lau_n:hover {
+  font-size: 14px;
+}
+/* line 370, _/stylesheets/style.sass */
+#artists #lau_n:hover:hover #lau {
+  color: red;
+  opacity: 1;
+}
+/* line 374, _/stylesheets/style.sass */
+#artists #lau {
+  opacity: 0.9;
+  left: 0px;
+  z-index: 150;
+}
+/* line 378, _/stylesheets/style.sass */
+#artists #tiko {
+  left: 50px;
+  z-index: 149;
+}
+/* line 381, _/stylesheets/style.sass */
+#artists #dave {
+  left: 140px;
+  z-index: 151;
+}
+/* line 384, _/stylesheets/style.sass */
+#artists #marcus {
+  left: 230px;
+  z-index: 148;
+}
+/* line 387, _/stylesheets/style.sass */
+#artists #unkown {
+  left: 320px;
+  z-index: 155;
+}
+/* line 391, _/stylesheets/style.sass */
+#artists #kenny {
+  right: 310px;
+  z-index: 150;
+}
+/* line 394, _/stylesheets/style.sass */
+#artists #sean {
+  right: 220px;
+  z-index: 151;
+}
+/* line 397, _/stylesheets/style.sass */
+#artists #phili {
+  right: 150px;
+  z-index: 152;
+}
+/* line 400, _/stylesheets/style.sass */
+#artists #leo {
+  right: 80px;
+  z-index: 149;
+}
+/* line 403, _/stylesheets/style.sass */
+#artists #eric {
+  right: 0px;
+  z-index: 150;
+}
